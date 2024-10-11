@@ -1,2 +1,2 @@
 # JavaFX
-POO 2 - JavaFX
+POO 2 - introdução JavaFX
