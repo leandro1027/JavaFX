@@ -18,10 +18,13 @@ public class HelloApplication extends Application {
         Label lblNome= new Label("Informe seu nome");
 
         TextField textNome= new TextField();
-        textNome.setPrefSize(100, 50);
+        textNome.setPrefSize(100, 30);
 
         Button btnOK= new Button();
         btnOK.setText("OK");
+        btnOK.setOnAction(evento -> {
+            System.out.println("Clicou no botao OK");
+        });
 
         Label lblMensagem= new Label();
         VBox layout= new VBox();
